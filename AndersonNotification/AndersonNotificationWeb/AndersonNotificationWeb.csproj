@@ -399,6 +399,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="APIControllers\BaseApiController.cs" />
+    <Compile Include="APIControllers\TestApiController.cs" />
     <Compile Include="APIControllers\EmailNotificationApiController.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
@@ -624,8 +625,6 @@
     <Folder Include="App_Data\" />
     <Folder Include="bower_components\pnotify\libtests\requirejs\" />
     <Folder Include="Models\" />
-    <Folder Include="Views\BaseApi\" />
-    <Folder Include="Views\Base\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AndersonNotificationData\AndersonNotificationData.csproj">

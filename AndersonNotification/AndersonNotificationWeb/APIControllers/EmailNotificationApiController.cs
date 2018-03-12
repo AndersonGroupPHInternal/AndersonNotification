@@ -15,10 +15,10 @@ namespace AndersonNotificationWeb.ApiControllers
         [HttpPost]
         public IHttpActionResult Create(EmailNotification emailNotification)
         {
-            _iFEmailNotification.Send(CredentialId, emailNotification);
+            emailNotification = _iFEmailNotification.Send(CredentialId, emailNotification);
 
             return Ok(emailNotification);
         }
-        
+
     }
 }

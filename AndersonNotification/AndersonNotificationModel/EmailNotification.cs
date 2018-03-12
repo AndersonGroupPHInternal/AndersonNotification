@@ -6,6 +6,7 @@ namespace AndersonNotificationModel
     {
         public bool? EnableSsl { get; set; }
         public bool? IsBodyHtml { get; set; }
+
         public int EmailNotificationId { get; set; }
         public int? Port { get; set; }
 
