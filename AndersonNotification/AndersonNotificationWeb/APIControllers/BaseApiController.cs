@@ -3,7 +3,7 @@ using ExternalAccountWebAuthentication.Authentication;
 
 namespace AndersonNotificationWeb.ApiControllers
 {
-    [ApiAuthorizationFilter(false, new string[] { "AndersonNotificationAdministrator" })]
+    [ApiAuthorizationFilter(false, new string[] { "AndersonNotificationAdministrator", "AndersonNotificationEmailNotification" })]
     public class BaseApiController : ExternalAccountBaseApiController
     {
     }

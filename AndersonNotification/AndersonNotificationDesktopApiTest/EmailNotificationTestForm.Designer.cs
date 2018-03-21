@@ -68,6 +68,7 @@
             this.lblBcc = new System.Windows.Forms.Label();
             this.lblPort = new System.Windows.Forms.Label();
             this.lblEmailNotificationId = new System.Windows.Forms.Label();
+            this.btnLoggedIn = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -414,11 +415,22 @@
             this.lblEmailNotificationId.Size = new System.Drawing.Size(0, 13);
             this.lblEmailNotificationId.TabIndex = 25;
             // 
+            // btnLoggedIn
+            // 
+            this.btnLoggedIn.Location = new System.Drawing.Point(496, 327);
+            this.btnLoggedIn.Name = "btnLoggedIn";
+            this.btnLoggedIn.Size = new System.Drawing.Size(75, 23);
+            this.btnLoggedIn.TabIndex = 26;
+            this.btnLoggedIn.Text = "LoggedIn";
+            this.btnLoggedIn.UseVisualStyleBackColor = true;
+            this.btnLoggedIn.Click += new System.EventHandler(this.btnLoggedIn_Click);
+            // 
             // EmailNotificationTestForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnLoggedIn);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.txtUsername);
@@ -496,5 +508,6 @@
         private System.Windows.Forms.Label lblBcc;
         private System.Windows.Forms.Label lblPort;
         private System.Windows.Forms.Label lblEmailNotificationId;
+        private System.Windows.Forms.Button btnLoggedIn;
     }
 }
