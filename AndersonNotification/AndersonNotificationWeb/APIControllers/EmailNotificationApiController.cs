@@ -16,7 +16,6 @@ namespace AndersonNotificationWeb.ApiControllers
         public IHttpActionResult Create(EmailNotification emailNotification)
         {
             emailNotification = _iFEmailNotification.Send(CredentialId, emailNotification);
-
             return Ok(emailNotification);
         }
 
