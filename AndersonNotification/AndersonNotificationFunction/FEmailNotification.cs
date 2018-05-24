@@ -87,7 +87,7 @@ namespace AndersonNotificationFunction
 
             SmtpClient smtp = new SmtpClient();
             smtp.Host = emailNotificationWithDefaultValues.Host;
-            smtp.Credentials = new NetworkCredential(emailNotificationWithDefaultValues.From, emailNotificationWithDefaultValues.Password);
+            smtp.Credentials = new NetworkCredential(emailNotificationWithDefaultValues.Username, emailNotificationWithDefaultValues.Password);
             smtp.EnableSsl = emailNotificationWithDefaultValues.EnableSsl.Value;
             smtp.Port = emailNotificationWithDefaultValues.Port.Value;
             smtp.Send(email);
