@@ -13,12 +13,14 @@ namespace AndersonNotificationWeb.Controllers
         }
 
         #region Create
+        [ValidateInput(false)]
         [HttpGet]
         public ActionResult Create()
         {
             return View(new EmailNotification());
         }
 
+        [ValidateInput(false)]
         [HttpPost]
         public ActionResult Create(EmailNotification notification)
         {

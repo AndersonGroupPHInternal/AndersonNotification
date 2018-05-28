@@ -23,37 +23,42 @@
 
 <div class="form-group">
     <label for="Sender">Bcc:</label>
-    <input type="email" class="form-control" name="Bcc" placeholder="Sender's Email Address.." value="@Model.Bcc">
+    <input type="email" class="form-control" name="Bcc" placeholder="Bcc Email Address.." value="@Model.Bcc">
 </div>
 
 <div class="form-group">
     <label for="CC">CC:</label>
-    <input type="email" class="form-control" name="CC" placeholder="Sender's Email Address.." value="@Model.CC">
+    <input type="email" class="form-control" name="CC" placeholder="CC Email Address.." value="@Model.CC">
 </div>
 
 <div class="form-group">
     <label for="Host">Host:</label>
-    <input type="text" class="form-control" name="Host" placeholder="Sender's Email Address.." value="@Model.Host">
+    <input type="text" class="form-control" name="Host" placeholder="Set host" value="@Model.Host">
 </div>
 
 <div class="form-group">
-    <label for="From">From:</label>
-    <input type="email" class="form-control" name="From" placeholder="Sender's Email Address.." value="@Model.From">
+    <label for="Username">Username:</label>
+    <input type="text" class="form-control" name="Username" value="@Model.Username">
 </div>
 
 <div class="form-group">
     <label for="Password">Password:</label>
-    <input type="password" class="form-control" name="Password" placeholder="Sender's Email Address..">
+    <input type="password" class="form-control" name="Password">
 </div>
 
 <div class="form-group">
     <label for="Subject">Subject</label>
-    <input type="text" class="form-control" name="Subject" placeholder="Subject" value="@Model.Subject">
+    <input type="text" class="form-control" name="Subject" placeholder="Add subject" value="@Model.Subject">
 </div>
 
 <div class="form-group">
     <label for="To">To:</label>
     <input type="email" class="form-control" name="To" placeholder="Receiver's Email Address.." value="@Model.To">
+</div>
+
+<div class="form-group">
+    <label for="From">From:</label>
+    <input type="text" class="form-control" name="From" placeholder="Sender's Email Address.." value="@Model.From">
 </div>
 
 <div class="form-group">
