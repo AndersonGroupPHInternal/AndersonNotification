@@ -135,7 +135,7 @@
             this.txtPort.Name = "txtPort";
             this.txtPort.Size = new System.Drawing.Size(100, 20);
             this.txtPort.TabIndex = 5;
-            this.txtPort.Text = "0";
+            this.txtPort.Text = "587";
             // 
             // label3
             // 
@@ -200,6 +200,7 @@
             this.txtHost.Name = "txtHost";
             this.txtHost.Size = new System.Drawing.Size(100, 20);
             this.txtHost.TabIndex = 13;
+            this.txtHost.Text = "smtp-mail.outlook.com";
             // 
             // label7
             // 
@@ -216,6 +217,7 @@
             this.txtFrom.Name = "txtFrom";
             this.txtFrom.Size = new System.Drawing.Size(100, 20);
             this.txtFrom.TabIndex = 15;
+            this.txtFrom.Text = "anderson_dev1@outlook.com";
             // 
             // label8
             // 
@@ -230,8 +232,10 @@
             // 
             this.txtPassword.Location = new System.Drawing.Point(112, 240);
             this.txtPassword.Name = "txtPassword";
+            this.txtPassword.PasswordChar = '*';
             this.txtPassword.Size = new System.Drawing.Size(100, 20);
             this.txtPassword.TabIndex = 17;
+            this.txtPassword.Text = "anderson123";
             // 
             // label9
             // 
@@ -248,6 +252,7 @@
             this.txtSubject.Name = "txtSubject";
             this.txtSubject.Size = new System.Drawing.Size(100, 20);
             this.txtSubject.TabIndex = 19;
+            this.txtSubject.Text = "TEST EMAIL";
             // 
             // label10
             // 
